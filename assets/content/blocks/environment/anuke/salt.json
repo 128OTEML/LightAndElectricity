@@ -1,0 +1,6 @@
+{
+"displayName": "盐碱地",
+"description": "荒芜缺水的地区，可从其中采集出含有较多杂质的粗盐",
+"itemDrop": "粗盐",
+"playerUnmineable": true
+}

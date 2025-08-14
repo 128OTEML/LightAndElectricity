@@ -1,0 +1,16 @@
+{
+"type":"liquids",
+    "gas":"true",
+    "name":"氯气",
+    "description":"工业使用的气体，对生物可能有致命毒性",
+    "details":"",
+    "color":"93BD49FF",
+    "barColor":"93BD49FF",
+    "lightColor":"93BD49FF",
+    "viscosity":"0",
+    "explosiveness":"1",
+    "flammability":"1",
+    "temperature":"0.1",
+    "alwaysUnlocked":true,
+    "research": "water",
+}

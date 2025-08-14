@@ -1,0 +1,16 @@
+{
+"type":"liquids",
+    "gas":"true",
+    "name":"乙烯",
+    "description":"工业使用的气体，相对于甲烷更易爆",
+    "details":"",
+    "color":"699ACCFF",
+    "barColor":"699ACCFF",
+    "lightColor":"699ACCFF",
+    "viscosity":"0.05",//粘度
+    "explosiveness":"5",//爆破威力
+    "flammability":"2",//大于零被破坏会烧起来
+    "temperature":"0.2",
+    "alwaysUnlocked":true,
+    "research": "water"
+}

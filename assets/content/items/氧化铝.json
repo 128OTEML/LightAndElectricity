@@ -1,0 +1,15 @@
+{
+"type":"material",
+    "name":"氧化铝",
+    "description":"工业铝材料，是你工业强大的象征",
+    "details":"",
+    "color":"B8B8B8FF",
+    "explosiveness":0,
+    "flammability":0,
+	"radioactivity":0,
+    "hardness":2,
+    "cost":6,
+    "healthScaling":10,
+    "alwaysUnlocked":true,
+    "research": "copper"
+}

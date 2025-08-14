@@ -1,0 +1,15 @@
+{
+    "type":"material",
+    "name":"钠",
+    "description":"危险化学材料，易爆",
+    "details":"不管了（）",
+    "color":"A0A3A9FF",
+    "explosiveness":2.4,
+    "flammability":0,
+	"radioactivity":0,
+    "hardness":3,
+    "cost":1,
+    "healthScaling":0,
+    "alwaysUnlocked":true,
+    "research": "copper"//没想好
+}

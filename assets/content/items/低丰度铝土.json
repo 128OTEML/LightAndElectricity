@@ -1,0 +1,15 @@
+{
+"type":"material",//类型
+    "name":"低丰度铝土",//
+    "description":"含一堆杂质的铝土，可加工",//毒不死你
+    "details":"其实，当rtg的玩物也行",//？
+    "color":"AC581FFF",//
+    "explosiveness":0.01,
+    "flammability":0.01,
+	"radioactivity":0.01,
+    "hardness":3,
+    "cost":1,
+    "healthScaling":0,
+    "alwaysUnlocked":true,
+    "research": "copper"//没想好
+}

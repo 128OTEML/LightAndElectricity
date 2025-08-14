@@ -1,0 +1,59 @@
+{
+    "name":"复式焦炼炉",
+    "type":"GenericCrafter",
+    "description":"炼制部分金属的通用熔炉，需要煤炭",
+    "itemCapacity":20,
+    "liquidCapacity":0,
+    "health":820,
+    "size":4,
+    "hasPower":true,
+    "hasLiquids":false,
+    "hasItems":true,
+    "craftTime":600,
+    "updateEffect":"smeltsmoke",
+    "drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			"DrawDefault"
+		]
+	},
+    "consumes":{
+        "power":6,
+        "items":{
+            "items":[
+                {
+                "item":"coal",
+                "amount":6
+                },
+                {
+                "item":"偏铝酸钠",
+                "amount":10
+                }
+            ]
+        }
+    },
+    "outputItem":{
+        "item":"氧化铝",
+        "amount":12
+    },
+    "requirements":[
+        "copper/360",
+        "lead/220",
+        "titanium/150",
+        "graphite/180",
+        "silicon/190",
+        "metaglass/80"
+    ],
+    "research":{
+        "parent": "power-node-large",
+        "requirements": ["copper/600","lead/500","titanium/500","silicon/300","metaglass/200"]
+    },
+    "category":"crafting",
+    "research":"cultivator",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}

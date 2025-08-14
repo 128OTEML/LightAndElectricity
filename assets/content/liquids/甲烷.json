@@ -1,0 +1,16 @@
+{
+"type":"liquids",
+    "gas":"true",
+    "name":"甲烷",
+    "description":"工业使用的气体，易燃易爆",
+    "details":"yue！好臭！",
+    "color":"C1962BFF",
+    "barColor":"C1962BFF",
+    "lightColor":"C1962BFF",
+    "viscosity":"0.05",//粘度
+    "explosiveness":"3",//爆破威力
+    "flammability":"1",//大于零被破坏会烧起来
+    "temperature":"0.2",
+    "alwaysUnlocked":true,
+    "research": "water"
+}

@@ -1,0 +1,65 @@
+{
+    "name":"铝土提纯器",
+    "type":"GenericCrafter",
+    "description":"混合水和钠，把低丰度的铝土提纯成为高浓度的偏铝酸钠",
+    "itemCapacity":15,
+    "liquidCapacity":30,
+    "health":820,
+    "size":3,
+    "hasPower":true,
+    "hasLiquids":true,
+    "hasItems":true,
+    "craftTime":150,
+    "updateEffect":"smeltsmoke",
+     "drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water"
+			},
+			"DrawDefault"
+		]
+	},
+    "consumes":{
+        "power":5,
+        "items":{
+            "items":[
+                "钠/2",
+                "低丰度铝土/3"
+            ]
+        },
+        "liquids":{
+            "liquids":[
+                {
+                "liquid":"water",
+                "amount":0.4
+                }
+            ]
+        }
+    },
+    "outputItem":{
+        "item":"偏铝酸钠",
+        "amount":2
+    },
+    "requirements":[
+        "copper/380",
+        "lead/260",
+        "titanium/200",
+        "graphite/210",
+        "silicon/250",
+        "metaglass/110"
+    ],
+    "research":{
+        "parent": "power-node-large",
+        "requirements": ["copper/600","lead/500","titanium/500","silicon/300","metaglass/200"]
+    },
+    "category":"crafting",
+    "research":"熔盐电解器",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}

@@ -1,0 +1,6 @@
+{
+"displayName": "页岩地",
+"description": "丰富含铝的地区，常伴生有钛矿石",
+"itemDrop": "低丰度铝土",
+"playerUnmineable": true
+}
