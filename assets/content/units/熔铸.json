@@ -1,0 +1,125 @@
+{
+	"type": "flying",
+	"accel": 0.05,
+	"drag": 0.1,
+	"rotateSpeed": 6,
+	"speed": 5,
+	"hitSize": 15,
+	"buildRange": 200,
+	"buildSpeed": 1,
+	"buildBeamOffset": 8,
+	"flying": true,
+	"health": 1200,
+	"armor": 4,
+	"range": 320,
+	"engineOffset": 10,
+	"engineSize": 3,
+	"weapons": [
+		{
+			"name": "熔铸1",
+			"x": 0,
+			"y": 2,
+			"shootY": 3.5,
+			"reload": 17,
+			"rotate": false,
+			"shootCone": 15,
+			"recoil": 0,
+			"shootSound": "missile",
+			"cooldownTime": 20,
+			"shoot": {
+				"type": "ShootPattern",
+				"ShotDelay": 8
+			},
+			"parts": [
+				{
+					"type": "ShapePart",
+					"progress": "warmup",
+					"color": "FFCF76FF",
+					"layer": 100,
+					"circle": true,
+					"hollow": false,
+					"radius": 1,
+					"radiusTo": 1.5,
+					"x": 0,
+					"y": 3
+				}
+			],
+			"bullet": {
+				"type": "PointBulletType",
+				"trailSpacing": 3,
+				"trailEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"length": 0,
+							"baseLength": 1,
+							"lifetime": 7.5,
+							"line": true,
+							"randLength": false,
+							"lenFrom": 3.3,
+							"lenTo": 3.3,
+							"strokeFrom": 1.2,
+							"strokeTo": 0,
+							"colorFrom": "FFCF76FF",
+							"colorTo": "FFCF76FF",
+							"cone": 0
+						}
+					]
+				},
+				"damage": 20,
+				"buildingDamageMultiplier": 0.1,
+				"lifetime": 10,
+				"speed": 16,
+				"splashDamageRadius": 30,
+				"splashDamage": 8.8,
+				"statusDuration": 240,
+				"chargeEffect": {
+					"type": "ParticleEffect",
+					"particles": 2,
+					"sizeFrom": 0,
+					"sizeTo": 1.3,
+					"length": -35,
+					"baseLength": 35,
+					"lifetime": 55,
+					"colorFrom": "FFCF76FF",
+					"colorTo": "FFCF76FF",
+					"cone": 360
+				},
+				"smokeEffect": "none",
+				"hitSound": "explosion",
+				"hitEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect",
+							"particles": 8,
+							"sizeFrom": 2,
+							"sizeTo": 0,
+							"length": 35,
+							"baseLength": 0,
+							"lifetime": 25,
+							"interp": "pow5Out",
+							"colorFrom": "FFCF76FF",
+							"colorTo": "FFCF76FF",
+							"cone": 360
+						}
+					]
+				},
+				"despawnEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"sizeFrom": 4,
+					"sizeTo": 0,
+					"length": 0,
+					"baseLength": 0,
+					"lifetime": 26,
+					"colorFrom": "FFCF76FF",
+					"colorTo": "FFCF76FF",
+					"cone": 360
+				}
+			}
+		}
+	]
+}
