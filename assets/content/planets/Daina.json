@@ -32,5 +32,5 @@
   "orbitRadius": 300,
   "drawOrbit": false,
   "orbitTime": 12000,
-  "children": [ "Planzer" ]
+  "children": [ "lacorus" ]
 }
