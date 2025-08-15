@@ -1,6 +1,6 @@
 {
   "type": "CoreBlock",
-  "name": "primaryCore",
+  "name": "初阶核心",
   "health": 2700,
   "armor": 3,
   "itemCapacity": 4000,
