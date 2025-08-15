@@ -3,12 +3,12 @@
 	"name": "铁管道桥",
 	"health": 50,
 	"range": 5,
-    "bufferCapacity":15,
-    "speed":70,
+    "bufferCapacity":10,
+    "speed":130,
 	"requirements": [
 		"铁/6"
 	],
 	"category": "distribution",	
-	"research": "铁",
+	"research": "铁质管道",
     "researchCostMultiplier":0.1
 }
