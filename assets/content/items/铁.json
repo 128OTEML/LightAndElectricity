@@ -1,0 +1,15 @@
+{
+"type":"material",
+    "name":"粗铁",
+    "description":"没有经过处理的含杂质铁矿石,在各种岩石中都可以挖掘",
+    "details":"",
+    "color":"F4F4F4FF",
+    "explosiveness":0,
+    "flammability":0,
+	"radioactivity":0,
+    "hardness":2,
+    "cost":1,
+    "healthScaling":0,
+    "alwaysUnlocked":true,
+    "research": "copper"
+}
