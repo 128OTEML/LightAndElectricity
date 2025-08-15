@@ -1,8 +1,8 @@
 {
     "type":"material",
-    "name":"生铁",
+    "name":"钢",
     "description":"烧制处理后的工业铁，在各个领域都常用",
-    "details":"赛普罗一辈子",
+    "details":"",
     "color":"F4F4F4FF",
     "explosiveness":0,
     "flammability":0,
@@ -11,5 +11,5 @@
     "cost":1,
     "healthScaling":0,
     "alwaysUnlocked":false,
-    "research": "粗铁"
+    "research": "铁"
 }

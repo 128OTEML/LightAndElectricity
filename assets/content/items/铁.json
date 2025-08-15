@@ -1,7 +1,7 @@
 {
 "type":"material",
-    "name":"粗铁",
-    "description":"没有经过处理的含杂质铁矿石,在各种岩石中都可以挖掘",
+    "name":"铁",
+    "description":"含有杂质的铁",
     "details":"",
     "color":"F4F4F4FF",
     "explosiveness":0,
@@ -11,5 +11,5 @@
     "cost":1,
     "healthScaling":0,
     "alwaysUnlocked":true,
-    "research": "copper"
+    "research": "初阶核心"
 }
