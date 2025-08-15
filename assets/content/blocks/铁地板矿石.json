@@ -1,0 +1,11 @@
+{
+  "name": "铁",
+  "type": "OreBlock",//种类是矿物地板
+  "playerUnmineable": false,//玩家不可挖掘
+  "itemDrop": "铁",//挖掘产出
+  "mapColor": "626369",//小地图上显示的颜色
+  "useColor": true,//使用小地图颜色
+  "oreDefault": true,//默认的矿脉生成规则
+  "oreThreshold": 1,//这个和下面都是关于矿脉生成大小
+  "oreScale": 33
+}
