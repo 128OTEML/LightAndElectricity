@@ -1,0 +1,25 @@
+{
+  "type": "CoreBlock",
+  "name": "PrimaryCore",
+  "health": 2700,
+  "armor": 3,
+  "itemCapacity": 4000,
+  "unitCapModifier": 8,
+  "size": 3,
+  "requirements": [
+    "copper/1500",
+    "lead/1200"
+  ],
+  "isFirstTier": false,
+  "category": "effect",
+  "unitType": "熔铸1",
+  "alwaysUnlocked": true,
+  "thrusterLength": 5.25,
+  "researchCostMultiplier": 0,
+  "research": {},
+  "reasrch":{
+    "root":true,
+    "planet":"lacorus",
+    "name":"拉克勒斯"
+  }
+}
