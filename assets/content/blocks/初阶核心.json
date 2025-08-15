@@ -3,7 +3,7 @@
   "name":"初阶核心",
   "health":2700,
   "armor":4,
-  "itemCapacity":6000,
+  "itemCapacity":3000,
   "unitCapModifier":12,
   "size":3,
   "requirements":[
