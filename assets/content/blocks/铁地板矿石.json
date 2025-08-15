@@ -6,6 +6,6 @@
   "mapColor": "626369",//小地图上显示的颜色
   "useColor": true,//使用小地图颜色
   "oreDefault": true,//默认的矿脉生成规则
-  "oreThreshold": 1,//这个和下面都是关于矿脉生成大小
+  "oreThreshold": 0.28,//这个和下面都是关于矿脉生成大小
   "oreScale": 33
 }
