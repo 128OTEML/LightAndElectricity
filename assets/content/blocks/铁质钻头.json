@@ -1,44 +1,31 @@
 {
+  "name": "铁质钻头",
+  "description":"基础钻头，开采低级矿物。可用水加速。",
   "type": "Drill",
   "size": 2,
-  "tier": 1,
-  "name":"铁质钻头",
-  "rotateSpeed": 2,
+  "health": 880,
+  "tier": 3,
   "drillTime": 300,
-  "liquidBoostIntensity": 1.5,
-  "drawRim": true,
-  "itemCapacity": 10,
-  "warmupSpeed": 0.0878,
-  "updateEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 20,
-    "length": 10,
-    "cone": -360,
-    "strokeFrom": 2,
-    "lenFrom": 4,
-    "lenTo": 0,
-    "colorFrom": "A3A3A3",
-    "colorTo": "A3A3A3"
-  },
-  "updateEffectChance": 0.2,
-  "hasLiquids": true,
-  "heatColor": "A3A3A3",
-  "hardnessDrillMultiplier": 10,
-  "liquidCapacity": 25,
-  "expanded": true,
+  "liquidBoostIntensity": 0.7,
+  "canOverdrive": true,
+  "drawRim": false,
+  "drillEffect": "none",
+  "updateEffect": "mineSmall",
+  "rotateSpeed": 3,
+  "drawMineItem": true,
   "consumes": {
     "liquid": {
       "liquid": "water",
-      "amount": 0.31,
+      "amount": 0.03,
       "booster": true,
       "optional": true
     }
   },
+  "itemCapacity": 20,
+  "liquidCapacity": 5,
   "requirements": [
-    "铁/20"
+    "tei/22"
   ],
   "category": "production",
-  "research": "铁"
+  "research": "mechanical-drill"
 }
