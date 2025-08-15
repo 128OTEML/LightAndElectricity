@@ -29,7 +29,7 @@
   "liquidCapacity": 25,
   "expanded": true,
   "consumes": {
-    "power": 0,
+    "power": null,
     "liquid": {
       "liquid": "water",
       "amount": 0.31,
