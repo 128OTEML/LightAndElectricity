@@ -1,0 +1,11 @@
+{
+  "type": "Router",
+  "name": "铁路由器",
+  "health": 50,
+  "requirements": [
+    "铁/3"
+  ],
+  "category": "distribution",
+  "research": "铁",
+  "researchCostMultiplier":0.01
+}
