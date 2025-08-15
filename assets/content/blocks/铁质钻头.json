@@ -24,7 +24,7 @@
   "itemCapacity": 20,
   "liquidCapacity": 5,
   "requirements": [
-    "tei/22"
+    "铁/20"
   ],
   "category": "production",
   "research": "mechanical-drill"
