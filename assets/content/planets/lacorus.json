@@ -14,7 +14,7 @@
     "drawOrbit": true,
     "accessible": true,
     "alwaysUnlocked": true,
-    "defaultCore": "PrimaryCore",
+    "defaultCore": "primaryCore",
     "sectorSeed": 690,
     "startSector": 154,
     "sectorSize": 3,

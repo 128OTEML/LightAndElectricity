@@ -1,6 +1,6 @@
 {
   "type": "CoreBlock",
-  "name": "PrimaryCore",
+  "name": "primaryCore",
   "health": 2700,
   "armor": 3,
   "itemCapacity": 4000,
@@ -12,7 +12,7 @@
   ],
   "isFirstTier": false,
   "category": "effect",
-  "unitType": "熔铸1",
+  "unitType": "熔铸",
   "alwaysUnlocked": true,
   "thrusterLength": 5.25,
   "researchCostMultiplier": 0,

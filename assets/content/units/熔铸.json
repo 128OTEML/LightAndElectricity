@@ -4,16 +4,18 @@
 	"drag": 0.1,
 	"rotateSpeed": 6,
 	"speed": 5,
+    "name":"熔铸",
 	"hitSize": 15,
 	"buildRange": 200,
 	"buildSpeed": 1,
 	"buildBeamOffset": 8,
 	"flying": true,
-	"health": 1200,
+	"health": 800,
 	"armor": 4,
 	"range": 320,
 	"engineOffset": 10,
 	"engineSize": 3,
+
 	"weapons": [
 		{
 			"name": "熔铸1",
