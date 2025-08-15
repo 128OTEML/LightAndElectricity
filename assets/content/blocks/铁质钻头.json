@@ -6,7 +6,7 @@
   "health": 880,
   "tier": 3,
   "drillTime": 300,
-  "liquidBoostIntensity": 2.5,
+  "liquidBoostIntensity": 1.5,
   "canOverdrive": true,
   "drawRim": false,
   "drillEffect": "none",
