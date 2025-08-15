@@ -1,24 +1,24 @@
 {
-  "type": "CoreBlock",
-  "name": "初阶核心",
-  "health": 2700,
-  "armor": 3,
-  "itemCapacity": 4000,
-  "unitCapModifier": 8,
-  "size": 3,
-  "requirements": [
+  "type":"CoreBlock",
+  "name":"初阶核心",
+  "health":2700,
+  "armor":4,
+  "itemCapacity":6000,
+  "unitCapModifier":12,
+  "size":3,
+  "requirements":[
     "copper/1500",
     "lead/1200"
   ],
-  "isFirstTier": false,
-  "category": "effect",
-  "unitType": "熔铸",
-  "alwaysUnlocked": true,
-  "thrusterLength": 5.25,
+  "isFirstTier":false,
+  "category":"effect",
+  "unitType":"熔铸",
+  "alwaysUnlocked":true,
+  "thrusterLength":5.25,
   "researchCostMultiplier": 0,
-  "reasrch":{
+  "research":{
     "root":true,
-    "planet":"拉克勒斯",
-    "name":"拉克勒斯"
+    "planet":拉克勒斯,
+    "name":拉克勒斯
   }
 }
