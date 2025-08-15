@@ -8,5 +8,5 @@
   "category": "distribution",
   "research":"铁",
   "speed": 5,
-  "researchCostMultiplier":0.01
+  "researchCostMultiplier":0.1
 }
