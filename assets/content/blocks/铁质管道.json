@@ -1,0 +1,11 @@
+{
+  "type": "Duct",
+  "name": "铁质管道",
+  "health": 45,
+  "requirements": [
+    "铁/1"
+  ],
+  "category": "distribution",
+  "research":"铁",
+  "speed": 5
+}
