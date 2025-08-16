@@ -1,9 +1,9 @@
 {
     "type":"material",
     "name":"锰",
-    "description":"",
+    "description":"较为基础的金属材料",
     "details":"",
-    "color":"e54ba6ff",
+    "color":"ac4f61ff",
     "explosiveness":0,
     "flammability":0.1,
     "radioactivity":0,
