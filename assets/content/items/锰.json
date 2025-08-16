@@ -5,7 +5,7 @@
     "details":"",
     "color":"e5ba6ff",
     "explosiveness":0,
-    "flammability":10,
+    "flammability":0.1,
     "radioactivity":0,
     "hardness":2,
     "cost":1,
