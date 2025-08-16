@@ -10,6 +10,6 @@
     "hardness":3,
     "cost":1,
     "healthScaling":0,
-    "alwaysUnlocked":true,
+    "alwaysUnlocked":false,
     "research": "铁"
 }
