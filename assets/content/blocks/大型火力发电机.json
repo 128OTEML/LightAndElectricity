@@ -1,0 +1,32 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "大型火力发电机",
+	"size": 2,
+	"health": 200,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemDuration": 40,
+	"powerProduction": 4.5,
+	"itemCapacity": 24,
+	"liquidCapacity": 0,
+	"drawer": {
+	  "type": "DrawMulti",
+		"drawers": [
+			"DrawDefault"
+		]
+	},
+	"generateEffect": "generatespark",
+	"consumes": {
+		"itemFlammable":{},
+		"itemExplode":{}
+	},
+	"buildCostMultiplier": 1,
+	"requirements": [
+		"铁/100",
+		"锰/40"
+	],
+	"ambientSound": "smelter",
+	"ambientSoundVolume": 0.06,
+	"category": "power",
+	"research": "初阶核心"
+}
