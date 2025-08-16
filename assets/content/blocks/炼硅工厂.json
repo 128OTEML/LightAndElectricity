@@ -45,10 +45,8 @@
         "铁/50",
         "锰/70"
     ],
-    "research":{
-        "parent": "初阶核心",
-        "requirements": ["铁/100","锰/140"]
-    },
+    "research":"初阶核心",
+ 	"researchCostMultiplier":0.15
     "category":"crafting",
     "research":"cultivator",
     "idleSound":"respawning",
