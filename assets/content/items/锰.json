@@ -4,7 +4,7 @@
     "description":"较为基础的金属材料",
     "details":"",
     "color":"ac4f61ff",
-    "explosiveness":0.1,
+    "explosiveness":0,
     "flammability":0,
     "radioactivity":0,
     "hardness":3,
