@@ -1,0 +1,25 @@
+{
+	"name": "凿冰机",
+	"type": "SolidPump",
+	"description":"开凿拉克勒斯急冻的冰，无法开采赛普罗的冰",
+	"health": 250,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity": 50,
+	"requirements": [
+		"铁/100",
+		"锰/80",
+		"silicon/100"
+	],
+	"consumes": {
+		"power": 1
+	},
+	"pumpAmount": 0.21,
+	"rotateSpeed": 1.3,
+	"result": "water",
+	"baseEfficiency": -1,
+	"attribute": "water",
+	"category": "production",
+	"research": "铁质钻头"
+}

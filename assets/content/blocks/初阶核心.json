@@ -7,8 +7,8 @@
   "unitCapModifier":12,
   "size":3,
   "requirements":[
-    "copper/1500",
-    "lead/1200"
+    "铁/1500",
+    "锰/1200"
   ],
   "isFirstTier":false,
   "category":"effect",
