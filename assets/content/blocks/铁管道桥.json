@@ -5,6 +5,7 @@
 	"range": 5,
     "bufferCapacity":10,
     "speed":70,
+	"solid" : true,
 	"requirements": [
 		"铁/6"
 	],

@@ -5,6 +5,7 @@
   "requirements": [
     "铁/1"
   ],
+  "solid" : false,
   "category": "distribution",
   "research":"铁",
   "speed": 5,
