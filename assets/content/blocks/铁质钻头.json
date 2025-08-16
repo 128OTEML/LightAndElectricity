@@ -5,7 +5,7 @@
   "size": 2,
   "health": 880,
   "tier": 3,
-  "drillTime": 360,
+  "drillTime": 320,
   "liquidBoostIntensity": 1.414,
   "canOverdrive": true,
   "drawRim": false,
