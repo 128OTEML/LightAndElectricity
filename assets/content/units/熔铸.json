@@ -15,8 +15,8 @@
 	"range": 320,
 	"engineOffset": 10,
 	"engineSize": 3,
-	"mineTier" : 3;
-	"mineSpeed" : 5;
+	"mineTier" : 3,
+	"mineSpeed" : 5,
 	"weapons": [
 		{
 			"name": "熔铸1",
