@@ -9,7 +9,7 @@
 	"requirements": [
 		"铁/100",
 		"锰/80",
-		"硅/100"
+		"silicon/100"
 	],
 	"consumes": {
 		"power": 1
