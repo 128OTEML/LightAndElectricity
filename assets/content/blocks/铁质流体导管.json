@@ -1,0 +1,13 @@
+{
+	"type": "Conduit",
+	"name": "铁质流体导管",
+	"health": 40,
+	"liquidCapacity":32,
+	"liquidPressure": 2,
+	"requirements": [
+		"铁/2"
+	],
+	"bridgeReplacement": "phase-conduit",
+	"category": "liquid",
+	"research": "初阶核心"
+}
