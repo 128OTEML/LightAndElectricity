@@ -1,0 +1,24 @@
+{
+	"name": "凿冰机",
+	"type": "SolidPump",
+	"health": 250,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity": 50,
+	"requirements": [
+		"铁/100",
+		"锰/80",
+		"硅/100"
+	],
+	"consumes": {
+		"power": 1
+	},
+	"pumpAmount": 0.2,
+	"rotateSpeed": 1.3,
+	"result": "water",
+	"baseEfficiency": -0.5,
+	"attribute": "water",
+	"category": "production",
+	"research": "铁质钻头"
+}
