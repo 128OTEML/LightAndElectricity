@@ -1,0 +1,54 @@
+
+{
+    "name":"炼硅工厂",
+    "type":"GenericCrafter",
+    "description":"铁打造的初级冶硅工厂，效率一般",
+    "itemCapacity":12,
+    "liquidCapacity":0,
+    "health":200,
+    "size":2,
+    "hasPower":true,
+    "hasLiquids":false,
+    "hasItems":true,
+    "craftTime":60,
+    "updateEffect":"smeltsmoke",
+    "drawer": {
+		    "type": "DrawMulti",
+		    "drawers": [
+		      	{
+		        		"type": "DrawFlame",
+		        		"Color": "ffef99"
+		      	},
+	  		"DrawDefault"
+	  	  ]
+	  },
+    "consumes":{
+        "power":2,
+        "items":{
+            "items":[
+                {
+                	"item":"coal",
+                	"amount":1
+            	},
+		{
+                	"item":"sand",
+                	"amount":3
+            	}
+            ]
+        }
+    },
+    "outputItem":{
+        "item":"silicon",
+        "amount":2
+    },
+    "requirements":[
+        "铁/50",
+        "锰/70"
+    ],
+    "research":"初阶核心",
+ 	"researchCostMultiplier":0.15
+    "category":"crafting",
+    "research":"cultivator",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}
