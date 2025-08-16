@@ -1,0 +1,48 @@
+
+{
+    "name":"熔化室",
+    "type":"GenericCrafter",
+    "description":"把冰放在锅盖聚焦太阳光的地方熔化👍🏻",
+    "itemCapacity":10,
+    "liquidCapacity":120,
+    "health":200,
+    "size":1,
+    "hasPower":true,
+    "hasLiquids":true,
+    "hasItems":true,
+    "craftTime":60,
+    "updateEffect":"smeltsmoke",
+    "drawer": {
+		    "type": "DrawMulti",
+		    "drawers": [
+		      	{
+		        		"type": "DrawFlame",
+		        		"Color": "ffef99"
+		      	},
+	  		"DrawDefault"
+	  	  ]
+	  },
+    "consumes":{
+        "items":{
+            "items":[
+                {
+                	"item":"冰",
+                	"amount":1
+            	}
+            ]
+        }
+    },
+    "outputLiquid":{
+        "liquid":"water",
+        "amount":0.2
+    },
+    "requirements":[
+        "铁/40",
+        "锰/40"
+    ],
+    "research":"大型火力发电机",
+    "researchCostMultiplier":0.1,
+    "category":"crafting",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}
