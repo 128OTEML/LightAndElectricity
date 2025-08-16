@@ -5,12 +5,12 @@
     "description":"铁打造的初级冶硅工厂，效率一般",
     "itemCapacity":12,
     "liquidCapacity":0,
-    "health":400,
+    "health":200,
     "size":2,
     "hasPower":true,
     "hasLiquids":false,
     "hasItems":true,
-    "craftTime":300,
+    "craftTime":60,
     "updateEffect":"smeltsmoke",
     "drawer": {
 		    "type": "DrawMulti",
@@ -39,7 +39,7 @@
     },
     "outputItem":{
         "item":"silicon",
-        "amount":1
+        "amount":2
     },
     "requirements":[
         "铁/50",
