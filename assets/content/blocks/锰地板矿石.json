@@ -3,7 +3,7 @@
   "type": "OreBlock",
   "playerUnmineable": false,
   "itemDrop": "锰",
-  "mapColor": "BEBEBEFF",
+  "mapColor": "ac4f61ff",
   "useColor": true,
   "oreDefault": true,
   "oreThreshold": 0.28,
