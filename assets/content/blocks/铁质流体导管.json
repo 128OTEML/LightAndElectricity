@@ -2,7 +2,7 @@
 	"type": "Conduit",
 	"name": "铁质流体导管",
 	"health": 40,
-	"liquidCapacity":32,
+	"liquidCapacity":64,
 	"liquidPressure": 2,
 	"requirements": [
 		"铁/2"
