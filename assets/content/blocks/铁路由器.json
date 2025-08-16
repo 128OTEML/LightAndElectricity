@@ -5,6 +5,7 @@
   "requirements": [
     "铁/3"
   ],
+  "solid" : false,
   "category": "distribution",
   "research": "铁",
   "researchCostMultiplier":0.01
