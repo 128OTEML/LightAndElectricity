@@ -6,6 +6,6 @@
   "mapColor": "BEBEBEFF",
   "useColor": true,
   "oreDefault": true,
-  "oreThreshold": 0.28,
-  "oreScale": 33
+  "oreThreshold": 0.8,
+  "oreScale": 20
 }
