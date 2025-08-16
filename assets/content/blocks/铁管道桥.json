@@ -3,8 +3,8 @@
 	"name": "铁管道桥",
 	"health": 50,
 	"range": 5,
-    "bufferCapacity":10,
-    "speed":130,
+    "bufferCapacity":12,
+    "speed":60,
 	"requirements": [
 		"铁/6"
 	],
