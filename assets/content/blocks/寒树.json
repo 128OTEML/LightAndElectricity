@@ -1,0 +1,13 @@
+{
+  "type": "Tree",
+  "name": "寒树",
+
+  "variants": 1,
+  "size": 1,
+  "breakable": true,
+  "floating": false,
+  "solid": false,
+  "clipSize": 48,
+  "alwaysReplace": false,
+  "buildVisibility": "editorOnly"
+}
