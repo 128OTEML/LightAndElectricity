@@ -123,8 +123,8 @@
                 "type": "NoiseMesh",
                 "planet": "lacorus",
                 "seed": 122,
-                "color1": "F5CA5D",
-                "color2": "F5CA5D",
+                "color1": "fff1ce",
+                "color2": "fff1ce",
                 "divisions": 5,
                 "radius": 0.67,
                 "octaves": 4,
@@ -143,7 +143,7 @@
                 "octaves": 12,
                 "persistence": 0.9,
                 "scale": 0.2,
-                "mag": 1.2
+                "mag": 2.1
             }
         ]
     },
