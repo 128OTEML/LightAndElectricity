@@ -1,0 +1,16 @@
+
+{
+    "type":"material",
+    "name":"冰",
+    "description":"就是冰块而已",
+    "details":"",
+    "color":"a2a2c2ff",
+    "explosiveness":0,
+    "flammability":0,
+  	"radioactivity":0,
+    "hardness":3,
+    "cost":1,
+    "healthScaling":0,
+    "alwaysUnlocked":false,
+    "research": "锰"
+}
