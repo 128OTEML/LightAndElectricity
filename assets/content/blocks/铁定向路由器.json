@@ -2,8 +2,8 @@
   "type": "DuctRouter",
   "name": "铁定向路由器",
   "health": 50,
-  speed = 4,
-  solid = false,
+  "speed" = 4,
+  "solid" = false,
   "requirements": [
     "铁/4"
   ],
