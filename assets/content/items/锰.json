@@ -1,0 +1,15 @@
+{
+    "type":"material",
+    "name":"铁",
+    "description":"含有杂质的铁",
+    "details":"",
+    "color":"e5ba6ff",
+    "explosiveness":0,
+    "flammability":10,
+    "radioactivity":0,
+    "hardness":2,
+    "cost":1,
+    "healthScaling":0,
+    "alwaysUnlocked":true,
+    "research": "铁"
+}
