@@ -4,7 +4,7 @@
 	"health": 80,
 	"size": 1,
 	"maxNodes": 10,
-	"laserRange": 22,
+	"laserRange": 10,
 	"laserScale": 0.5,
 	"research": "大型火力发电机",
 	"laserColor2": "5f6a89",
