@@ -7,7 +7,7 @@
     "explosiveness":0.01,
     "flammability":0.01,
 	"radioactivity":0.01,
-    "hardness":3,
+    "hardness":4,
     "cost":1,
     "healthScaling":0,
     "alwaysUnlocked":true,
