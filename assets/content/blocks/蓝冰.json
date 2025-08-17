@@ -1,6 +1,6 @@
 {
   "name": "蓝冰",
-  "type": "OreBlock",
+  "type": "Floor",
   "playerUnmineable": false,
   "itemDrop": "冰",
   "mapColor": "a2a2c2ff",
