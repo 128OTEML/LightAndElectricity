@@ -15,10 +15,6 @@
     "drawer": {
 		    "type": "DrawMulti",
 		    "drawers": [
-		      	{
-		        		"type": "DrawFlame",
-		        		"Color": "ffef99"
-		      	},
 	  		"DrawDefault"
 	  	  ]
 	  },
