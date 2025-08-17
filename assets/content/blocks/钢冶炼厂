@@ -1,0 +1,54 @@
+
+{
+    "name":"钢冶炼厂",
+    "type":"GenericCrafter",
+    "description":"将铁和煤合金为钢",
+    "itemCapacity":12,
+    "liquidCapacity":0,
+    "health":450,
+    "size":2,
+    "hasPower":true,
+    "hasLiquids":false,
+    "hasItems":true,
+    "craftTime":90,
+    "updateEffect":"smeltsmoke",
+    "drawer": {
+		    "type": "DrawMulti",
+		    "drawers": [
+		      	{
+		        		"type": "DrawFlame",
+		        		"Color": "ffef99"
+		      	},
+	  		"DrawDefault"
+	  	  ]
+	  },
+    "consumes":{
+        "power":5,
+        "items":{
+            "items":[
+                {
+                	"item":"coal",
+                	"amount":1
+            	},
+		{
+                	"item":"铁",
+                	"amount":3
+            	}
+            ]
+        }
+    },
+    "outputItem":{
+        "item":"钢",
+        "amount":3
+    },
+    "requirements":[
+        "铁/100",
+        "锰/100",
+        "silicon/60"
+    ],
+   	"researchCostMultiplier":0.15
+    "category":"crafting",
+    "research":"炼硅工厂",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}
