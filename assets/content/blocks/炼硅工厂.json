@@ -48,7 +48,6 @@
     "research":"初阶核心",
  	"researchCostMultiplier":0.15
     "category":"crafting",
-    "research":"cultivator",
     "idleSound":"respawning",
     "idleSoundVolume":0.5
 }
