@@ -3,7 +3,7 @@
     "name":"钢冶炼厂",
     "type":"GenericCrafter",
     "description":"将铁和煤合金为钢",
-    "itemCapacity":12,
+    "itemCapacity":18,
     "liquidCapacity":0,
     "health":450,
     "size":2,
@@ -46,7 +46,7 @@
         "锰/100",
         "silicon/60"
     ],
-   	"researchCostMultiplier":0.15
+   	"researchCostMultiplier":0.1
     "category":"crafting",
     "research":"炼硅工厂",
     "idleSound":"respawning",
