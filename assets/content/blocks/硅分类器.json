@@ -6,7 +6,7 @@
     "silicon/2",
     "铁/1"
   ],
-  "invert" : false;
+  "invert" : false,
   "category": "distribution",
   "research":"铁路由器",
   "researchCostMultiplier":0.1
