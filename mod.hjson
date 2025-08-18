@@ -5,13 +5,13 @@ displayName: "Java Mod Template"
 name: "example-java-mod"
 
 #your name
-author: "You"
+author: "Every developer"
 
 #the fully qualified main class of the mod
 main: "example.ExampleJavaMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Tribute to"HBM's Nuclear Tech Mod" and "minecraft"!!!"
 
 #the mod version
 version: 1.0
