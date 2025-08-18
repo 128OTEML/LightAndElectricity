@@ -11,7 +11,7 @@ author: "Every developer"
 main: "example.ExampleJavaMod"
 
 #the mod description as seen in the mod dialog
-description: "Tribute to"HBM's Nuclear Tech Mod" and "minecraft"!!!"
+description: "Tribute to HBM's Nuclear Tech Mod and minecraft!!!"
 
 #the mod version
 version: 1.0
