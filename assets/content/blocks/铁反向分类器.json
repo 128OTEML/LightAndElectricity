@@ -1,12 +1,12 @@
 {
   "type": "Sorter",
-  "name": "硅分类器",
+  "name": "铁反向分类器",
   "health": 45,
   "requirements": [
-    "silicon/2",
+    "锰/2",
     "铁/1"
   ],
-  "invert" : false,
+  "invert" : true,
   "category": "distribution",
   "research":"铁路由器",
   "researchCostMultiplier":0.1

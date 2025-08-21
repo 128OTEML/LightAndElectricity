@@ -1,9 +1,9 @@
 {
-  "type": "Sorter",
-  "name": "硅反向分类器",
+  "type": "OverflowGate",
+  "name": "铁反向溢流门",
   "health": 45,
   "requirements": [
-    "silicon/2",
+    "锰/2",
     "铁/1"
   ],
   "invert" : true,

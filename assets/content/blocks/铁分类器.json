@@ -1,9 +1,9 @@
 {
-  "type": "OverflowGate",
-  "name": "硅溢流门",
+  "type": "Sorter",
+  "name": "铁分类器",
   "health": 45,
   "requirements": [
-    "silicon/2",
+    "锰/2",
     "铁/1"
   ],
   "invert" : false,

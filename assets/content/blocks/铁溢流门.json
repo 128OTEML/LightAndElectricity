@@ -1,12 +1,12 @@
 {
   "type": "OverflowGate",
-  "name": "硅反向溢流门",
+  "name": "铁溢流门",
   "health": 45,
   "requirements": [
-    "silicon/2",
+    "锰/2",
     "铁/1"
   ],
-  "invert" : true,
+  "invert" : false,
   "category": "distribution",
   "research":"铁路由器",
   "researchCostMultiplier":0.1
