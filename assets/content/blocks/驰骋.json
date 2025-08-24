@@ -1,0 +1,48 @@
+{
+	"type": "ItemTurret",
+	"name": "驰骋",
+	"health": 650,
+	"size": 2,
+	"reload": 20,
+	"range": 360,
+	"maxAmmo": 30,
+	"recoilTime": 10,
+	"recoil": 0.2,
+	"consumes": {
+		"water": {
+			"amount": 0.25,
+			"optional": true
+		}
+	},
+	"shoot": {
+		"shots": 1,
+		"shotDelay": 3
+	},
+	"drawer": {
+	},
+	"shake": 1.2,
+	"liquidCapacity": 30,
+	"ammoPerShot": 6,
+	"ammoUseEffect": "",
+	"targetGround": true,
+	"targetAir": false,
+	"inaccuracy": 0.2,
+	"rotateSpeed": 9,
+	"ammoTypes": {
+		"铁": {
+			"speed": 6.5,
+			"damage": 42,
+			"knockback": 0.7,
+			"lifetime": 30,
+			"width": 3,
+			"height": 9,
+			"ammoMultiplier": 2
+		}
+	},
+	"requirements": [
+		"铁/120",
+		"锰/95"
+	],
+	"category": "turret",
+	"research": "初阶核心"
+}
