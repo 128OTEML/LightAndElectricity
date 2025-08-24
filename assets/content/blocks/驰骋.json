@@ -9,7 +9,7 @@
 	"recoilTime": 10,
 	"recoil": 0.2,
 	"consumes": {
-		"water": {
+		"coolant": {
 			"amount": 0.25,
 			"optional": true
 		}
