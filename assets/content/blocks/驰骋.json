@@ -1,48 +1,95 @@
 {
-	"type": "ItemTurret",
-	"name": "驰骋",
-	"health": 650,
-	"size": 2,
-	"reload": 20,
-	"range": 360,
-	"maxAmmo": 30,
-	"recoilTime": 10,
-	"recoil": 0.2,
-	"consumes": {
+    "type": "ItemTurret",
+    "name": "驰骋",
+    "description":"发射铁质滑膛炮弹，射击远处敌人时可能有误差",
+    "health": 530,
+    "range": 200,
+    "reload": 60,
+    "armor": 5,
+    "size": 2,
+    "ammoPerShot": 1,
+    "maxAmmo": 10,
+    "shake": 1.6,
+    "consumes": {
 		"coolant": {
-			"amount": 0.25,
-			"optional": true
+			"amount": 0.1,
+			"optional": false
 		}
 	},
-	"shoot": {
-		"shots": 1,
-		"shotDelay": 3
-	},
-	"drawer": {
-	},
-	"shake": 1.2,
-	"liquidCapacity": 30,
-	"ammoPerShot": 6,
-	"ammoUseEffect": "",
+	"rotatespeed": 0.9,
+	"canOverdrive": true,
+	"inaccuracy": 1,
 	"targetGround": true,
 	"targetAir": false,
-	"inaccuracy": 0.2,
-	"rotateSpeed": 9,
-	"ammoTypes": {
-		"铁": {
-			"speed": 6.5,
-			"damage": 42,
-			"knockback": 0.7,
-			"lifetime": 30,
-			"width": 3,
-			"height": 9,
-			"ammoMultiplier": 2
-		}
-	},
-	"requirements": [
-		"铁/120",
-		"锰/95"
-	],
+	"recoil": 4,
+	"recoilTime": 30,
 	"category": "turret",
-	"research": "初阶核心"
+	"research": "初阶核心",//在科技树的前一位
+	"requirements": [
+	    "铁/130",
+	    "锰/30"//造价
+	],
+	"shootSound": "artillery",
+	"ammoTypes": {
+	    "铁": {
+	        "type": "BasicBulletType",
+	        "sprite": "circle-bullet",
+	        "width": 2,
+	        "height": 4,
+	        "speed": 4,
+	        "lifetime": 50,
+	        "shrinkX": 0,
+	        "damage": 34,
+	        "frontColor": "FFFFFF",
+	        "backColor": "F0FF88",
+	        "trailColor": "F0FF88",
+	        "trailWidth": 1,
+	        "trailLength": 4,
+	        "hitShake": 1,
+	        "ammoMultiplier": 1,
+	        "hitSound": "explosion",
+	        "hitEffect": {
+	            "type": "multiEffect",
+	            "effects": [
+	                {
+	                    "type": "waveEffect",
+	                    "lifetime": 45,
+	                    "colorFrom": "F0FF88",
+	                    "colorTo": "F0FF88",
+	                    "sizeFrom": 0,
+	                    "sizeTo": 12,
+	                    "strokeFrom": 2,
+	                    "strokeTo": 0
+	                },
+	                {
+	                    "type": "particleEffect",
+	                    "line": true,
+	                    "particles": 5,
+	                    "lifetime": 45,
+	                    "length": 35,
+	                    "baseLength": 35,
+	                    "lenLengthFrom": 0,
+	                    "lenLengthTo": 3.5,
+	                    "strokeFrom": 1.5,
+	                    "strokeTo": 0
+	                }
+	            ]
+	        },
+	        "shootEffect": {
+                "type": "particleEffect",
+                "line": true,
+                "particles": 6,
+                "lifetime": 45,
+                "length": 30,
+                "baseLength": 0,
+                "colorFrom": "F0FF88",
+	            "colorTo": "F0FF88",
+                "lenLengthFrom": 0,
+                "lenLengthTo": 3,
+                "strokeFrom": 1,
+                "strokeTo": 0,
+                "cone": 20
+	        }
+	    }
+	}
 }
