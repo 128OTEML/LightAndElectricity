@@ -10,7 +10,7 @@
     "ammoPerShot": 1,
     "maxAmmo": 10,
     "shake": 1.6,
-    "shootY": -2,
+    "shootY": -0.5,
     "consumes": {
 		"coolant": {
 			"amount": 0.1,
@@ -25,10 +25,10 @@
 	"recoil": 4,
 	"recoilTime": 30,
 	"category": "turret",
-	"research": "初阶核心",//在科技树的前一位
+	"research": "初阶核心",
 	"requirements": [
 	    "铁/130",
-	    "锰/30"//造价
+	    "锰/30"
 	],
 	"shootSound": "artillery",
 	"ammoTypes": {
