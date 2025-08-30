@@ -1,0 +1,18 @@
+{
+    "type": "wall",
+    "name": "大型导能合金墙",
+    "health": 8000,
+    "armor": 100,
+    "size": 2,
+    "lightningChance": 0.3,
+	"lightningDamage": 70,
+	"lightningLength": 15,
+	"absorbLasers": true,
+	"buildCostMultiplier": 0.38,
+	"category": "defense",
+	"research": "导能合金墙",
+	"requirements": [
+	    "导能合金/80",
+	    "surge-alloy/120"
+	]
+}

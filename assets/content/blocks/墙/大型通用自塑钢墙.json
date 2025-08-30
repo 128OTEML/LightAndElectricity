@@ -1,0 +1,17 @@
+{
+    "type": "wall",
+    "name": "大型通用自塑钢墙",
+    "health": 10500,
+    "armor": 55,
+    "size": 2,
+    "absorbLasers": true,
+    "category": "defense",
+    "research": "通用自塑钢墙",
+    "buildCostMultiplier": 0.0080026584,
+    "flashHit": true,
+	"chanceDeflect": 60,
+    "requirements": [
+        "通用自塑钢/125",
+        "surge-alloy/75"
+    ]
+}
