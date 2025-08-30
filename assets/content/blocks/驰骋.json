@@ -10,7 +10,7 @@
     "ammoPerShot": 1,
     "maxAmmo": 10,
     "shake": 1.6,
-    "shootY": 26,
+    "shootY": -2,
     "consumes": {
 		"coolant": {
 			"amount": 0.1,
